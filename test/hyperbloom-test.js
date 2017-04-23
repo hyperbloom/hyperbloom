@@ -64,10 +64,14 @@ describe('HyperBloom', () => {
       assert(nodes[0].has(Buffer.from('hello')));
 
       assert(!nodes[1].has(Buffer.from('hello')));
-      setTimeout(() => {
+      const w = nodes[1].watch({
+        start: Buffer.from('a'),
+        end: Buffer.from('z')
+      });
+      w.on('values', (values) => {
         assert(nodes[1].has(Buffer.from('hello')));
         cb();
-      }, 100);
+      });
     });
   });
 });
