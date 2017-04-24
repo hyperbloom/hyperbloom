@@ -1,4 +1,4 @@
-# hyperbloom
+# HyperBloom
 
 Implementation of [HyperBloom protocol][0] node on top of [discovery-swarm][1].
 
