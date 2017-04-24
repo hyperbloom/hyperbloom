@@ -1,12 +1,16 @@
 {
   "name": "hyperbloom",
   "version": "1.0.0",
-  "description": "",
+  "description": "HyperBloom",
   "main": "lib/hyperbloom.js",
   "scripts": {
     "test": "mocha --reporter=spec test/*-test.js"
   },
-  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hyperbloom/hyperbloom.git"
+  },
+  "keywords": [ "hyperbloom" ],
   "author": "Fedor Indutny <fedor@indutny.com> (http://darksi.de/)",
   "license": "MIT",
   "dependencies": {
