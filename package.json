@@ -12,11 +12,11 @@
   "dependencies": {
     "debug": "^2.6.4",
     "discovery-swarm": "^4.3.2",
-    "hyperbloom-constants": "git://github.com/hyperbloom/hyperbloom-constants.git",
-    "hyperbloom-node": "git://github.com/hyperbloom/hyperbloom-node.git",
-    "hyperbloom-protocol": "git://github.com/hyperbloom/hyperbloom-protocol.git",
-    "hyperbloom-trust": "git://github.com/hyperbloom/hyperbloom-trust.git",
-    "hyperbloom-value-storage": "git://github.com/hyperbloom/hyperbloom-value-storage.git"
+    "hyperbloom-constants": "^1.1.0",
+    "hyperbloom-node": "^1.0.0",
+    "hyperbloom-protocol": "^1.0.0",
+    "hyperbloom-trust": "^1.0.0",
+    "hyperbloom-value-storage": "^1.0.0"
   },
   "devDependencies": {
     "mkdirp": "^0.5.1",
