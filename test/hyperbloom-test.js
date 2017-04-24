@@ -55,9 +55,6 @@ describe('HyperBloom', () => {
       }
     });
 
-    a.listen();
-    b.listen();
-
     bothJoin(a, b, pair.publicKey, (err, nodes) => {
       assert(!nodes[0].has(Buffer.from('hello')));
       nodes[0].bulkInsert([ Buffer.from('hello') ]);
