@@ -19,7 +19,7 @@
     "debug": "^2.6.4",
     "discovery-swarm": "^4.3.2",
     "hyperbloom-constants": "^1.1.0",
-    "hyperbloom-node": "^1.1.0",
+    "hyperbloom-node": "^1.2.0",
     "hyperbloom-protocol": "^1.1.0",
     "hyperbloom-trust": "^1.0.0",
     "hyperbloom-value-storage": "^1.0.0"
