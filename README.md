@@ -4,6 +4,11 @@
 
 Implementation of [HyperBloom protocol][0] node on top of [discovery-swarm][1].
 
+## Community
+
+There is a #hyperbloom channel on [FreeNode][4] where all questions will be
+*eventually* answered.
+
 ## What is HyperBloom?
 
 HyperBloom is a conflict-free distributed set with write-access controlled by
@@ -84,3 +89,4 @@ USE OR OTHER DEALINGS IN THE SOFTWARE.
 [1]: https://www.npmjs.com/package/discovery-swarm
 [2]: https://github.com/hyperbloom/hyperbloom-protocol/blob/master/spec.md
 [3]: https://github.com/hyperbloom/hyperbloom-node
+[4]: https://freenode.net/
